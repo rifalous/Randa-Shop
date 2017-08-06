@@ -1,0 +1,115 @@
+body {
+	background-image: url("img/bg.jpg");
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid #CCC;
+}
+
+#container {
+	width: 800px;
+	margin: 20px auto;
+	background-color: #FFF;
+}
+
+#header {
+	text-align: center;
+	padding: 20px;
+}
+	
+	#header h1 {
+		margin: 0;
+		padding: 0;
+		text-decoration: underline;
+	}
+
+	#header span {
+		font-size: 12px;
+		font-style: italic;
+	}
+
+#menu {
+	background-color: #DDD;
+	border-top: 1px dashed #CCC;
+	border-bottom: 1px dashed #CCC;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+	#menu a {
+		display: inline-block;
+		padding: 5px 10px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #000;
+	}
+
+		#menu a:hover {
+			background-color: #000;
+			color: #FFF;
+		}
+
+		#menu a.selected {
+			background-color: #000;
+			color: #FFF;
+		}
+
+#sidebar {
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+}
+
+	#sidebar .title {
+		font-size: 14px;
+		font-weight: bold;
+		border-bottom: 1px solid #000;
+	}
+
+	#sidebar .body {
+		margin: 10px 0 20px 0;
+	}
+
+#content {
+	width: 520px;
+	float: right;
+	padding: 0px 12px;
+	margin-right: 20px;
+	border-left: 1px dashed #CCC;
+}
+
+	#content .title {
+		font-size: 14px;
+		font-weight: bold;
+		border-bottom: 1px solid #000;
+		margin-bottom: 10px;
+	}
+
+	#content .item {
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+		border-bottom: 1px dotted #CCC;
+	}
+
+		#content .item p {
+			margin: 3px 0px;
+			padding: 3px 0px;
+		}
+
+#footer {
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+	border-top: 1px dashed #CCC;
+}
+
+.clear {
+	clear: both;
+}

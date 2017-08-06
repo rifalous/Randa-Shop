@@ -1,0 +1,9 @@
+CARA INSTALASI
+
+- ekstrak hasil download dengan winrar atau sejenisnya
+- copy folder hasil ekstrak dan paste di www (appserv) atau di htdocs (xampp)
+- buat database baru di phpmyadmin dengan nama "olshop"
+- import file olshop.sql yang ada difolder hasil ekstrak tadi
+- buka file config.php dan rubah detail koneksi
+
+TERIMA KASIH.
