@@ -1,2 +1,2 @@
 # Randa-Shop
-Randa Shop is a mini online shop build using PHP
+Randa-Shop is a mini online shop build using old PHP
